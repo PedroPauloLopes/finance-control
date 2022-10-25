@@ -1,0 +1,41 @@
+body{
+    background: no-repeat;
+    background-color: rgb(87, 143, 226);
+    color: white;
+    height: 100%;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+}
+
+#text {
+   font-weight: 400;
+    
+}
+
+.btn {
+    background-color: white;
+    border: rgb(87, 90, 253);
+    color: rgb(87, 90, 253);
+}
+
+#emailHelp {
+    color: white;
+    font-size: smaller;
+
+}
+
+#loginCheck {
+    color: white;
+    font-size: smaller;
+
+}
+
+.accountLink {
+    color: white;
+    
+}

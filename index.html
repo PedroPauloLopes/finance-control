@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Finance Control - Index</title>
+
+</head>
+<body>
+
+    <main>
+        <div class="container">
+            <div class="row vh-100">
+                <div class="col d-flex justify-content-center flex-column my-5" >
+                    <div id="text">
+                        <h1> A organização das suas finanças a um clique! </h1>
+                        <br>
+                        <p> Controle, facilmente, seu dinheiro e seus investimentos. </p>
+                        <p> Mude de vida! Economize e atinja suas metas. </p>
+                    </div>     
+                    
+                    <div class="text-center">
+                        <img src="#" alt="#" class="img-fluid" srcset="">
+                        <img src="#" alt="#" class="img-fluid d-none d-md-inline"  srcset="">
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-center flex-column my-5">
+                    <div class="container justify-content-center">
+                        <div class="row">
+                            <div>
+                                <form id="login-form">
+                                    <div class="mb-3">
+                                      <label for="email-input" class="form-label email">E-mail</label>
+                                      <input type="email" class="form-control" id="email-input" aria-describedby="emailHelp" required>
+                                      <div id="emailHelp" class="form-text">Utilize seu e-mail para realizar o login.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="password-input" class="form-label email">Digite sua senha</label>
+                                      <input type="password" class="form-control" id="password-input" required>
+                                    </div>
+                                    <div id="loginCheck" class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="session-check">
+                                        <label class="form-check-label" for="session-check"> Permanecer logado. </label>
+                                    </div>
+                                    <button type="submit" class="btn button-login">Entrar</button>
+                                  </form>
+                            </div> 
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col mt-2 text-center">
+                                <p class="accountLink text-center mt-2 form-text" data-bs-toggle="modal" data-bs-target="#register-modal"> Ainda não tem conta? <a href="#" class="accountLink">Criar uma conta</a> </p>
+                            </div>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="register-modal" tabindex="-1" aria-labelledby="register-modal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="register-modal">Crie sua conta</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form id="create-form">
+            <div class="modal-body">
+            
+                <div class="mb-3">
+                  <label for="email-create-input" class="form-label email">E-mail</label>
+                  <input type="email" class="form-control" id="email-create-input" aria-describedby="emailHelp" required>
+                  <div id="emailHelp" class="form-text">Utilize seu e-mail para criar conta.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="password-create-input" class="form-label email">Digite uma senha fácil e anote em um lugar seguro</label>
+                  <input type="password" class="form-control" id="password-create-input" required>
+                </div>
+                
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary button-cancel" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-primary button-default">Criar conta</button>
+            </div>    
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>    
+</body>
+
+</html>
